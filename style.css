@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #387180;
+;    margin: 0;
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+h1{
+padding: 10px;
+font-family: cursive, sans-serif;
+
+}
+
+.container {
+  text-align: center;
+}
+
+
+input[type="text"] {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+
+
+/* Add this CSS to your style.css file or within a <style> tag in your HTML */
+
+/* Style the container for the movie display */
+#display {
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+justify-content: center;
+padding-top: 20px;
+}
+
+/* Style each movie card */
+.movie {
+border: 1px solid #ddd;
+border-radius: 8px;
+overflow: hidden;
+width: 200px;
+box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+transition: transform 0.2s ease-in-out;
+}
+
+.movie:hover {
+transform: scale(1.05);
+cursor: pointer;
+}
+
+/* Style the movie poster image */
+.movie img {
+width: 100%;
+height: auto;
+display: block;
+}
+
+/* Style the movie title */
+.movie h3 {
+margin: 10px;
+font-size: 18px;
+color: #b6a7c8;
+}
+
+/* Style the movie year */
+.movie p {
+margin: 0 10px 10px;
+font-size: 16px;
+color: #89b135;
+}
